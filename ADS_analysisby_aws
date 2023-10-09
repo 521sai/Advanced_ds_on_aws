@@ -1,1 +1,15 @@
+#aws cli commands
+https://awscli.amazonaws.com/v2/documentation/api/latest/index.html
+
+#pandas library
 https://aws-sdk-pandas.readthedocs.io/en/stable/
+
+#Dataset
+https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews
+
+## function lists all objects in the S3 bucket
+aws s3 ls [bucket_name]
+
+#share the columns to AWS sagemaker
+from IPython.core.display import display, HTML
+display(HTML('<b>Review <a target="top" href="https://s3.console.aws.amazon.com/s3/home?region={}#">Amazon S3 buckets</a></b>'.format(region)))
