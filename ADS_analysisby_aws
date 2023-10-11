@@ -20,3 +20,9 @@ display(HTML('<b>Review <a target="top" href="https://s3.console.aws.amazon.com/
 
 ##copying of files into aws sagemaker
 !aws s3 cp ./womens_clothing_ecommerce_reviews_transformed.csv s3://$bucket/data/transformed/womens_clothing_ecommerce_reviews_transformed.csv
+
+#Statical bias documentation
+https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-measure-data-bias.html
+
+#SHAP
+https://shap.readthedocs.io/en/latest/
